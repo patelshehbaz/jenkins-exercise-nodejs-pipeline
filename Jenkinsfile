@@ -34,12 +34,6 @@ pipeline {
                         sleep 10
                     }
                 }
-                stage('Unit Test 3') {
-                    steps {
-                        echo "Unit Test 3 executing"
-                        sleep 10
-                    }                    
-                }
             }
         }
         stage('Sonarqube Scan') {
